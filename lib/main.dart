@@ -17,6 +17,7 @@ class MyApp extends StatelessWidget {
       create: (context) => HomePro(),
       child: MaterialApp(
         title: 'Flutter Demo',
+        debugShowCheckedModeBanner: false,
         theme: ThemeData(
           // This is the theme of your application.
           //
